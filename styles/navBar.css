@@ -6,7 +6,6 @@
   --primary-color: #F8F9FB;
   --secondary-color: #000;
   --black-color: #000000;
-  --cw: #ffd000;
   --ra: #f00;
   --poppins: 'poppins', sans-serif;
 
@@ -20,18 +19,31 @@ body {
   overflow-x: hidden;
 }
 
-.Nav-Bar {
-  background-color: var(--cw);
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.1);
+  margin-top: 20px;
+  backdrop-filter: blur(10px);
+  z-index: 9999;
+}
+
+.Nav-Bar {
+  width: 100%;
+  height: 100px;
 }
 
 .Nav-logo-div {
   float: left;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 300px;
+  height:80px;
 }
 
 .Nav-logo {
@@ -42,7 +54,7 @@ body {
 .Nav-ul {
   margin: auto;
   float: right;
-  margin-right: 20px;
+  margin-right: 120px;
   font-family: var(--poppins);
   font-size: 18px;
   margin-top: 0;
@@ -66,7 +78,7 @@ body {
   margin-top: -15px;
   height: 4px;
   border-radius: 100px;
-  border-bottom-right-radius:  0px;
+  border-bottom-right-radius: 0px;
   background-color: var(--ra);
   transition: width .3s ease;
 }
@@ -296,17 +308,6 @@ body {
   display: none;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  padding-top: 0;
-  padding-bottom: 0;
-  box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.1);
-  z-index: 9999;
-}
 
 
 .header-logo {

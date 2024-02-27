@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style: none;
-    /* cursor: pointer; */
 }
 
 :root {
@@ -35,22 +34,23 @@ body {
     background-color: var(--cr);
     color: var(--ba) !important;
 }
-*::selection{
+
+*::selection {
     background-color: transparent;
 }
+
 .nav-text {
     margin-top: 1.3rem;
     text-transform: uppercase;
 }
-.logo{
-    height:100%;
-    width:100%;
+
+.logo {
+    height: 100%;
+    width: 100%;
 }
+
 /* ====================================================== */
 
-#home{
-    margin-left: 10%;
-}
 .home {
     width: 100%;
     padding: 2rem;
@@ -174,10 +174,11 @@ nav {
     color: #fff;
 
 }
-/* margin-top */
-.container{
-    padding-top:90px;
+
+.container {
+    padding-top: 90px;
 }
+
 .box {
     width: auto;
     height: 6rem;
@@ -238,7 +239,7 @@ nav {
     padding: 8px !important;
 }
 
-.row{
+.row {
     justify-content: center;
 }
 
@@ -254,19 +255,21 @@ nav {
     background-color: #27ae60;
     border-radius: 10px
 }
-.details a{
+
+.details a {
     text-decoration: none;
 }
-.details a:hover{
-    color:#053bc4;
+
+.details a:hover {
+    color: #053bc4;
     transition: color 0.2s linear;
 }
 
-.about-me,.education-me{
-    width:1000px;
+.about-me {
+    width: 1000px;
     margin-left: -150px;
     text-align: justify;
-    font-size:30px;
+    font-size: 30px;
 }
 
 
@@ -337,7 +340,7 @@ textarea {
 
 .contact-div {
     padding: 1.4rem;
-    cursor:auto;
+    cursor: auto;
 }
 
 .copy {
@@ -354,11 +357,12 @@ textarea {
 }
 
 
-.prpic{
-    width:30vw;
-    height:30vh;
+.prpic {
+    width: 30vw;
+    height: 30vh;
     object-fit: fill;
 }
+
 .form-group.error p {
     color: #770113;
     visibility: visible;
@@ -383,49 +387,46 @@ textarea {
 }
 
 @media(max-width:768px) {
-    body{
+    body {
         overflow-x: visible;
     }
-    #home{
-        margin-top:50px;
-        margin-left: 0%;
+
+    .home {
+        margin-top: 100px;
     }
+
     .name h1 {
         font-size: 50px;
         margin-bottom: 1.5rem;
     }
 
-    #skills{
+    #skills {
         margin: 0vw auto;
     }
-    #project{
-        margin:0vw auto;
+
+    #project {
+        justify-content: center;
     }
-    .prpic{
-        width:90vw;
-        height:40vh;
+
+    .prpic {
+        width: 90vw;
+        height: 40vh;
         object-fit: fill;
-        margin:0vw auto;
+        margin: 0vw auto;
 
     }
-    .myimg{
+
+    .myimg {
         width: 90vw;
     }
 
-    .about-me{
-        width:90vw;
+    .about-me {
+        width: 90vw;
         margin-left: 2vw;
         margin-right: 2vw;
-        font-size:5vw;
+        font-size: 5vw;
     }
-    .education-me{
-        width:90vw;
-        margin-left: 2vw;
-        margin-right: 2vw;
-        text-align: center;
-        font-size:5vw;
+    .linkd{
+        font-size: 19px;
     }
-    
 }
-
-

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#education {
+    width: 100%;
+}
+
+.edu-m {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.education-main {
+    width: 33%;
+    height: fit-content;
+    background-color: var(--rc);
+    border: 2px solid var(--ra);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    padding-bottom: 20px;
+
+}
+
+.educ {
+    padding: 10px;
+    text-align: center;
+}
+
+.cls {
+    text-align: center;
+    font-size: 20px;
+    color:var(--cw);
+    font-weight: 800;
+}
+
+.pla {
+    text-align: center;
+    font-size: 20px;
+}
+
+.educ ul {
+    list-style-type: none;
+
+}
+
+.edu-logo {
+    margin-top:10px;
+    margin-left:-25px;
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(20px);
+    object-fit: contain;
+    justify-content: center;
+}
+
+.colege {
+    height: 225px;
+}
+.com-box{
+    padding: 5px 10px;
+    text-decoration: none;
+    color:#fff;
+    background-color: var(--ra);
+    border:2px solid #ff0;
+    border-radius: 10px;
+}
+
+/* mobile-view */
+@media only screen and (max-width:640px) {
+    .edu-m{
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .education-main{
+        width:100%;
+    }
+    .perc,.locc{
+        margin-left:-10px;
+    }
+}
