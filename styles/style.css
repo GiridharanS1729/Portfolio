@@ -383,27 +383,47 @@ textarea {
 }
 
 @media(max-width:768px) {
+    body{
+        overflow-x: visible;
+    }
     #home{
+        margin-top:50px;
         margin-left: 0%;
     }
     .name h1 {
         font-size: 50px;
         margin-bottom: 1.5rem;
     }
+
+    #skills{
+        margin: 0vw auto;
+    }
+    #project{
+        margin:0vw auto;
+    }
     .prpic{
         width:90vw;
         height:40vh;
         object-fit: fill;
+        margin:0vw auto;
+
     }
     .myimg{
         width: 90vw;
     }
 
-    .about-me,.education-me{
-        width:400px;
-        margin-left: 10px;
+    .about-me{
+        width:90vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-size:5vw;
+    }
+    .education-me{
+        width:90vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
         text-align: center;
-        font-size:20px;
+        font-size:5vw;
     }
     
 }

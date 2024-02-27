@@ -6,8 +6,8 @@
   --primary-color: #F8F9FB;
   --secondary-color: #000;
   --black-color: #000000;
-  --cw:#ffd000;
-  --ra:#f00;
+  --cw: #ffd000;
+  --ra: #f00;
   --poppins: 'poppins', sans-serif;
 
 }
@@ -52,6 +52,36 @@ body {
   color: var(--ra);
   font-weight: 600;
 }
+
+/* width underline */
+
+.Nav-ul a {
+  text-decoration: none;
+}
+
+.Nav-ul a::after {
+  content: '';
+  display: block;
+  width: 0;
+  margin-top: -15px;
+  height: 4px;
+  border-radius: 100px;
+  border-bottom-right-radius:  0px;
+  background-color: var(--ra);
+  transition: width .3s ease;
+}
+
+.Nav-ul a:hover {
+  color: var(--ra);
+  font-weight: 600;
+}
+
+.Nav-ul a:hover::after {
+  width: 60%;
+  margin-top: -15px;
+}
+
+/* width underline */
 
 .Nav-li {
   list-style: none;
@@ -150,6 +180,24 @@ body {
     width: 250px;
   }
 
+
+  /* width underline */
+
+  .Nav-ul a {
+    text-decoration: none;
+  }
+
+  .Nav-ul a:hover {
+    color: red;
+    font-weight: 0;
+  }
+
+  .Nav-ul a:hover::after {
+    width: 0%;
+  }
+
+  /* width underline */
+
   .HamBurger {
     display: block;
   }
@@ -209,7 +257,7 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color:#ffefc6;
+    background-color: #ffefc6;
     color: var(--secondary-color);
     top: 70px;
     left: 0;
