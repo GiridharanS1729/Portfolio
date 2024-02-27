@@ -13,14 +13,9 @@
     --rb: #ff2222;
     --rc: #ff4444;
     --rd: #ff6666;
-    --re: #ff7777;
 
     --ya: #ffc800;
     --yb: #ffff00;
-    --yc: #ffff22;
-    --yd: #ffff44;
-    --ye: #ffff66;
-    --yf: #ffff88;
 
     --ba: #fdfbf0;
     --bg: #181818;
@@ -28,11 +23,13 @@
     --cr: #F96167;
     --cw: #F9E795;
 
+    --pro-top:#ffffae;
 }
 
 body {
     background-color: var(--cr);
     color: var(--ba) !important;
+    font-size:20px;
 }
 
 *::selection {
@@ -51,6 +48,9 @@ body {
 
 /* ====================================================== */
 
+#home{
+    margin-left: 10%;
+}
 .home {
     width: 100%;
     padding: 2rem;
@@ -264,6 +264,9 @@ nav {
     color: #053bc4;
     transition: color 0.2s linear;
 }
+.pro-top{
+    color:var(--pro-top);
+}
 
 .about-me {
     width: 1000px;
@@ -395,6 +398,9 @@ textarea {
         margin-top: 100px;
     }
 
+    #home{
+        margin-left: 0%;
+    }
     .name h1 {
         font-size: 50px;
         margin-bottom: 1.5rem;
@@ -427,6 +433,6 @@ textarea {
         font-size: 5vw;
     }
     .linkd{
-        font-size: 19px;
+        font-size: 20px;
     }
 }

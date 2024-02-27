@@ -131,7 +131,7 @@ body {
   height: 3px;
   margin: 5px auto;
   border-radius: 10px;
-  background-color: #000;
+  background-color: #ff0;
 }
 
 @media (max-width:995px) {
@@ -188,8 +188,9 @@ body {
   }
 
   .Nav-logo {
-    display: inline;
-    width: 250px;
+    margin-top: 7%;
+    height:114%;
+    aspect-ratio: 1/1;
   }
 
 
@@ -241,7 +242,6 @@ body {
 
   .Nav-li {
     list-style: none;
-
     display: block;
     line-height: 30px;
     margin: 50px 0;
