@@ -38,4 +38,25 @@ Make sure you have the following installed:
 1. **Clone the repo**
 
    ```sh
-   git clone https://github.com/yourusername/flutter-portfolio.git
+   git clone https://github.com/GiridharanS1729/Portfolio.git
+
+2. **Navigate to the project directory**
+
+   ```sh
+   cd Portfolio
+
+3. **Install dependencies**
+
+   ```sh
+   flutter pub get
+
+4. **▶️ Running the App**
+
+- Connect a device or start an emulator
+
+5. **Run the app**
+
+   ```sh
+   flutter run
+
+**Your portfolio should now be running on your device/emulator! 🎉**
