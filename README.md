@@ -1,4 +1,4 @@
-# 🌟 Flutter Portfolio 🌟
+# 🌟 Flutter Portfolio Made By Giridharan S🌟
 
 Welcome to the Flutter Portfolio project! This README will guide you through the steps to get your portfolio up and running. Follow along to showcase your skills and projects in a beautiful and interactive way.
 
@@ -30,6 +30,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Make sure you have the following installed:
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart/archive)
 - [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 
@@ -51,10 +52,6 @@ Make sure you have the following installed:
    flutter pub get
 
 4. **▶️ Running the App**
-
-- Connect a device or start an emulator
-
-5. **Run the app**
 
    ```sh
    flutter run
