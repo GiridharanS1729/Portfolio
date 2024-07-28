@@ -2,7 +2,7 @@
 
 Welcome to the HTML/CSS/JS Portfolio project! This README will guide you through the steps to get your portfolio up and running. Follow along to showcase your skills and projects in a beautiful and interactive way.
 
-![Portfolio Banner](images/banner.gif)
+![Portfolio Banner](images/banner.png)
 
 ## 🚀 Features
 
